@@ -4,6 +4,7 @@ This project focuses on market risk measurement using **Value-at-Risk (VaR)** an
 
 ## Table of Contents
 * [Project Overview](#project-overview)
+* [Repository Structure](#repository-structure)
 * [Methodology](#methodology)
 * [Models Implemented](#models-implemented)
 * [Key Findings](#key-findings)
@@ -12,6 +13,11 @@ This project focuses on market risk measurement using **Value-at-Risk (VaR)** an
 
 ## Project Overview
 The objective is to estimate and backtest market risk metrics for a portfolio consisting of three major assets (AAPL, META, JPM) over the period from January 2023 to June 2025. The project explores the effectiveness of univariate models versus multivariate copula-based approaches.
+
+## Repository Structure
+- `pdfs/Report.pdf`: The final academic report detailing methodology, results, and analysis.
+- `analysis.ipynb`: Jupyter Notebook containing the full Python implementation.
+- `pdfs/Instructions.pdf`: The original project brief and constraints.
 
 ## Methodology
 1.  **Exploratory Data Analysis**: Analysis of empirical stylized facts, including log-returns, volatility clustering, and heavy tails (Jarque-Bera tests and QQ-plots).
